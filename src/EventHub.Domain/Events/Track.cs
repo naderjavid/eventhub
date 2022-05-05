@@ -83,7 +83,7 @@ namespace EventHub.Events
             
             if (session.StartTime != startTime)
             {
-                CheckIfValidSessionTime(endTime, sessionId);
+                CheckIfValidSessionTime(startTime, sessionId);
             }
 
             if (session.EndTime != endTime)
